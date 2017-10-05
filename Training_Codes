@@ -1,0 +1,141 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+#!/usr/bin/python
+
+# Open a file
+fo = open("foo.txt", "r+")
+print "Name of the file: ", fo.name
+
+# Assuming file has following 5 lines
+# This is 1st line
+# This is 2nd line
+# This is 3rd line
+# This is 4th line
+# This is 5th line
+
+line = fo.readlines()
+print "Read Line: %s" % (line)
+
+line = fo.readlines(2)
+print "Read Line: %s" % (line)
+
+# Close opend file
+fo.close()
+
+
+
+# Open a file
+#fo = open("foo.txt", "r+")
+#str = fo.read(10);
+#print "Read String is : ", str
+#
+## Check current position
+#position = fo.tell();
+#print "Current file position : ", position
+#
+## Reposition pointer at the beginning once again
+#position = fo.seek(0, 0);
+#str = fo.read(10);
+#print "Again read String is : ", str
+## Close opend file
+#fo.close()
+
+
+# Function definition is here
+#def printme( str ):
+#   "This prints a passed string into this function"
+#   print str
+#   return;
+#
+## Now you can call printme function
+#printme('sam');
+#
+"hello"
+'hi'
+# Function definition is here
+#def printinfo( arg1, *vartuple ):
+#   "This prints a variable passed arguments"
+#   print "Output is: "
+#   print arg1
+#   for var in vartuple:
+#      print var
+#   return;
+#
+## Now you can call printinfo function
+#printinfo( 10 )
+#printinfo( 70, 60, 50 )
+
+#import calendar
+#
+#cal = calendar.month(2017, 10)
+#print "Here is the calendar:"
+#print cal
+#print calendar.isleap(2017)
+#a=[1,2,3]
+#print a
+#b=a
+#del a
+#print b
+#help(object)
+#
+#import random
+#print random.randrange(100, 1000, 1) 
+#print random.randrange(100, 1000, 2) 
+#import random
+#random.seed( 10 )
+#print "Random number with seed 10 : ", random.random()
+#print "Random number with seed 10 : ", random.random()
+#print "Random number with seed 10 : ", random.random()
+#
+#random.seed( 10 )
+#print "Random number with seed 10 : ", random.random()
+#
+#
+#random.seed( 5 )
+#print "Random number with seed 10 : ", random.random()
+
+
+#
+#tuple1, tuple2 = (123, 'xyz'), (456, 'abc')
+#
+#print cmp(tuple1, tuple2)
+#print cmp(tuple2, tuple1)
+#
+#tup1=(123)
+#tup2=(456)
+#
+#print cmp(tup1,tup2)
+#print cmp(tup2,tup1)
+
+#
+#dict1 = {'Name': 'Zara', 'Age': 7};
+#dict2 = {'Name': 'Mahnaz', 'Age': 27};
+#dict3 = {'Name': 'Abid', 'Age': 27};
+#dict4 = {'Name': 'zoro', 'Age': 7};
+#print "Return Value : %d" %  cmp (dict1, dict2)
+#print "Return Value : %d" %  cmp (dict2, dict3)
+#print "Return Value : %d" %  cmp (dict1, dict4)
+
+#
+#
+#dict = {'Z':'A','Name': 'Zara', 'Age': 7, 'B':'Yo', 'Mob':9632587410};
+#print "Equivalent String : %s" % str (dict)
+#
+#d1 = {'Name': 'Zara', 'Age': 7};
+#print "Variable Type : %s" %  type (dict)
+
+#
+#dict = {'Name': 'Zabra', 'Age': 7}
+#
+#print "Value : %s" %  dict.get('Age')
+#print "Value : %s" %  dict.get('Education', "fever")
+
+#
+#import time;  # This is required to include time module.
+#
+#ticks = time.time()
+#print "Number of ticks since 12:00am, January 1, 1970:", ticks
