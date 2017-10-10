@@ -6,7 +6,5 @@ Created on Mon Oct 09 18:48:54 2017
 """
 
 list = [12,24,35,70,88,120,155]
-newlist=[]
-for i in range(len(list)):
-    newlist.append(list[if i%2==0 i+1 ])
-    print newlist[i]
+list = [x for (i,x) in enumerate(list) if i not in (0,2,4,6)]
+print(list)
