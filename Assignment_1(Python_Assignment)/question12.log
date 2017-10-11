@@ -1,3 +1,9 @@
 INFO 2017-10-11 11:45:42,532 Sequence entered
 INFO 2017-10-11 11:45:44,437 Entered the Nth term
 DEBUG 2017-10-11 11:45:44,437 #Called the additiveSequence method
+INFO 2017-10-11 11:58:58,479 Sequence entered
+INFO 2017-10-11 11:59:00,207 Entered the Nth term
+DEBUG 2017-10-11 11:59:00,207 #Called the additiveSequence method
+INFO 2017-10-11 11:59:08,709 Sequence entered
+INFO 2017-10-11 11:59:10,239 Entered the Nth term
+DEBUG 2017-10-11 11:59:10,239 #Called the additiveSequence method
