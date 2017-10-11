@@ -19,12 +19,12 @@ class AdditiveSequenceCheck:
                       print y,
                       x,y = y,x+y                                
                   if (list1 or y):
-                      print ": Given sequence is a additive sequence"
+                      print ": is a additive sequence"
                   else:
-                      print ": Given sequence is not a additive sequence"
+                      print ": is not a additive sequence"
                   return
               else:
-                  print "Not a additive sequence"
+                  print "***Not a additive sequence***"
         def main():
             print "Additive Sequence check"
         if __name__ == "__main__":
