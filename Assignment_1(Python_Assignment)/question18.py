@@ -14,14 +14,15 @@ class ListDemo:
         def setList(self,list1):
             ListDemo.list1.append(list1)
         
-#        def removeList(self,element):
-#            del list1[element]
+        def removeList(self,element):
+            del list1[element]
+            l.getList()
                         
     except Exception, e:
         print "Exception Handled Successfully : ", e
 l = ListDemo()
-list1 = raw_input("Enter the elements: ")
+list1 = raw_input("Enter the elements: ").split(" ")
 l.setList(list1)
 l.getList()
-#element = int(raw_input("Enter the element to remove: "))
-#l.removeList(element)
+element = int(raw_input("Enter the index of element to remove: "))
+l.removeList(element)

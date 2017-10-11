@@ -14,16 +14,16 @@ class AdditiveSequenceCheck:
         logger = logging.getLogger()
         def additiveSequence(seq,nTerm):
                 
-              list1 = [int(i) for i in str(seq)]
-#             if (not (list1[i]==list1[i+1]==0)):
-              x = list1[0]
-              y = list1[1]
-              print "Additive sequence is: ",x,
-              while(y <= nTerm):
-                  print y,
-                  x,y = y,x+y  
-              return
-#             else: 
+                  list1 = [int(i) for i in str(seq)]
+#              if (not (list1[i] == list1[i+1] == 0)):
+                  x = list1[0]
+                  y = list1[1]
+                  print "Additive sequence is: ",x,
+                  while(y <= nTerm):
+                      print y,
+                      x,y = y,x+y  
+                  return
+#              else: 
 #                 print "Not a additive sequence"
               
             
