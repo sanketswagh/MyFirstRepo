@@ -7,3 +7,29 @@ DEBUG 2017-10-11 11:59:00,207 #Called the additiveSequence method
 INFO 2017-10-11 11:59:08,709 Sequence entered
 INFO 2017-10-11 11:59:10,239 Entered the Nth term
 DEBUG 2017-10-11 11:59:10,239 #Called the additiveSequence method
+INFO 2017-10-11 14:24:06,938 Sequence entered
+INFO 2017-10-11 14:24:08,657 Entered the Nth term
+DEBUG 2017-10-11 14:24:08,658 Called the additiveSequence method
+INFO 2017-10-11 14:24:08,658 Converted the sequence into int and entered into list
+DEBUG 2017-10-11 14:24:08,658 Checked the first two elements for consecutive zero's
+INFO 2017-10-11 14:24:50,578 Sequence entered
+INFO 2017-10-11 14:24:51,786 Entered the Nth term
+DEBUG 2017-10-11 14:24:51,786 Called the additiveSequence method
+INFO 2017-10-11 14:24:51,786 Converted the sequence into int and entered into list
+DEBUG 2017-10-11 14:24:51,786 Checked the first two elements for consecutive zero's
+INFO 2017-10-11 14:25:47,937 Sequence entered
+INFO 2017-10-11 14:25:55,546 Sequence entered
+INFO 2017-10-11 14:25:56,506 Entered the Nth term
+DEBUG 2017-10-11 14:25:56,506 Called the additiveSequence method
+INFO 2017-10-11 14:25:56,506 Converted the sequence into int and entered into list
+DEBUG 2017-10-11 14:25:56,506 Checked the first two elements for consecutive zero's
+INFO 2017-10-11 14:26:09,282 Sequence entered
+INFO 2017-10-11 14:26:10,378 Entered the Nth term
+DEBUG 2017-10-11 14:26:10,378 Called the additiveSequence method
+INFO 2017-10-11 14:26:10,378 Converted the sequence into int and entered into list
+DEBUG 2017-10-11 14:26:10,378 Checked the first two elements for consecutive zero's
+INFO 2017-10-11 14:26:24,538 Sequence entered
+INFO 2017-10-11 14:26:25,506 Entered the Nth term
+DEBUG 2017-10-11 14:26:25,506 Called the additiveSequence method
+INFO 2017-10-11 14:26:25,506 Converted the sequence into int and entered into list
+DEBUG 2017-10-11 14:26:25,506 Checked the first two elements for consecutive zero's
